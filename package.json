@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "node api/quote.js",
-    "dev": "nodemon api/quote.js"
+    "dev": "nodemon api/quote.js",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "cors": "^2.8.5",
